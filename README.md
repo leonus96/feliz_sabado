@@ -1,16 +1,18 @@
-# feliz_sabado
+# Feliz Sábado
+Flutter application to help the people to receive the holy Saturday. Our goal is to develop an app that helps you receive the Sabbath on time and in a way that honors God.  
 
-Aplicación que te ayuda a recibir el Sábado
+## How to run?
+1. Install Flutter
+2. Install IntellJ, Android Studio or VsCode and Flutter plugin.
+3. Run the project on a mobile device (Android or iOS), in a simulator or emulator.
+4. Alternatively run `flutter run` in terminal on project folder.
 
-## Getting Started
+## How to use the project
+You can download app when it is in a minimum viable stage. Actually, the application is under development.
 
-This project is a starting point for a Flutter application.
+## Contributors
+1. Joseph León (@leonus96)
+2. Harlemn León (@...)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to contribute?
+Check out our project board or contact us if you'd like to contribute.
