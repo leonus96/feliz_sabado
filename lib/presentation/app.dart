@@ -1,7 +1,6 @@
 import 'package:feliz_sabado/data/datasources/shared_preferences/shared_preferences_data_source.dart';
 import 'package:feliz_sabado/data/repositories/shared_preferences/shared_preferences_repository_impl.dart';
 import 'package:feliz_sabado/domain/usecases/get_current_theme.dart';
-import 'package:feliz_sabado/presentation/pages/home_page.dart';
 import 'package:feliz_sabado/presentation/providers/theme/theme_provider.dart';
 import 'package:feliz_sabado/presentation/router.dart';
 import 'package:feliz_sabado/presentation/theme.dart';
@@ -37,8 +36,10 @@ class _MaterialApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = context.watch<ThemeProvider>();
     return MaterialApp(
-      home: const HomePage(),
-      onGenerateRoute: AppRouter.onGenerateRoute,
+      debugShowCheckedModeBanner: false,
+      initialRoute: kRouteOnBoarding,
+      // TODO: Check if OnBoarding has viewed (prefs) Go to Home
+      routes: AppRouter.routes,
       theme: AppTheme.buildTheme(context, theme.value!),
     );
   }

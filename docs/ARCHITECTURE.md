@@ -11,12 +11,12 @@ Este proyecto implementará arquitectura limpia.
 Como en el diagrama anterior, la arquitectura limpia se representa como una pirámide o una rebanada de cebolla cuando se ve desde arriba. La arquitectura limpia dividirá el proyecto Flutter en 3 capas principales, a saber:
 
 ### Capa de datos y de plataforma
-La capa de datos se encuentra en la capa más externa. Esta capa consta de código fuente de datos, como consumir API Rest, acceso a la base de datos local, Firebase u otras fuentes. Además, en esta capa, suele estar el código de la plataforma que crea la interfaz de usuario (widgets).
+La capa de datos se encuentra en la capa más externa. Esta capa consta de código fuente de datos, como consumir API Rest, acceso a la base de datos local, Firebase u otras fuentes. 
 
 ### Capa presentación
-La capa de presentación consiste en el código para acceder a los datos de la aplicación desde un repositorio. Además, existe el código para la gestión estatal, como proveedores, BLoC, etc.
+La capa de presentación consiste en el código para acceder a los datos de la aplicación desde un repositorio. Además, existe el código para la gestión estatal, como proveedores, BLoC, etc. Además, en esta capa, suele estar el código de la plataforma que crea la interfaz de usuario (widgets).
 
-## Capa dominio
+### Capa dominio
 La capa de dominio es la más profunda en la arquitectura limpia. Esta capa contiene el código para aplicaciones de lógica empresarial, como entidades y casos de uso.
 
 > Cada capa depende de las otras capas. Las flechas en el diagrama muestran cómo se relacionan las capas. La capa más externa dependerá de la capa interna y así sucesivamente
