@@ -37,7 +37,7 @@ class _MaterialApp extends StatelessWidget {
     final theme = context.watch<ThemeProvider>();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: kRouteOnBoarding,
+      initialRoute: kRouteHomePage,
       // TODO: Check if OnBoarding has viewed (prefs) Go to Home
       routes: AppRouter.routes,
       theme: AppTheme.buildTheme(context, theme.value!),

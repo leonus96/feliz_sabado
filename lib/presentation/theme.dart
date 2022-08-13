@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 const kPrimaryColor = Color(0xFFFFC100);
-const kBrowColor = Color(0xFF5A221E);
+const kBrownColor = Color(0xFF5A221E);
 
 class AppTheme {
   static buildTheme(BuildContext context, Brightness brightness) {
@@ -19,7 +19,7 @@ class AppTheme {
           textTheme: GoogleFonts.ralewayTextTheme(),
           floatingActionButtonTheme: Theme.of(context)
               .floatingActionButtonTheme
-              .copyWith(backgroundColor: kBrowColor),
+              .copyWith(backgroundColor: kBrownColor),
         );
       case Brightness.light:
         return Theme.of(context).copyWith(
@@ -33,7 +33,7 @@ class AppTheme {
           textTheme: GoogleFonts.ralewayTextTheme(),
           floatingActionButtonTheme:
               Theme.of(context).floatingActionButtonTheme.copyWith(
-                    backgroundColor: kBrowColor,
+                    backgroundColor: kBrownColor,
                   ),
         );
     }

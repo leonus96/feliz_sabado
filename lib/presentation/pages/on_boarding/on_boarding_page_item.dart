@@ -36,7 +36,7 @@ class OnBoardingPageItem extends StatelessWidget {
         leading: currentIndex == 0
             ? null
             : IconButton(
-                icon: const Icon(Iconsax.arrow_left, color: kBrowColor),
+                icon: const Icon(Iconsax.arrow_left, color: kBrownColor),
                 onPressed: () => pageController.previousPage(
                   duration: _kPageTransitionDuration,
                   curve: Curves.easeInOut,

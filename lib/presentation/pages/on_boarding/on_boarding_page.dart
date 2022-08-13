@@ -104,7 +104,7 @@ class _CirclePageItem extends StatelessWidget {
         height: _kCirclePageIndicatorSize,
         decoration: BoxDecoration(
           color: isActive ? Theme.of(context).primaryColor : Colors.transparent,
-          border: Border.all(color: kBrowColor, width: 2.0),
+          border: Border.all(color: kBrownColor, width: 2.0),
           borderRadius: const BorderRadius.all(
             Radius.circular(10),
           ),
