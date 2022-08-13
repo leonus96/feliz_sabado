@@ -11,20 +11,21 @@ class AppTheme {
         return Theme.of(context).copyWith(
           brightness: Brightness.dark,
           primaryColor: kPrimaryColor,
+          highlightColor: kPrimaryColor,
           appBarTheme: Theme.of(context).appBarTheme.copyWith(
                 backgroundColor: Colors.transparent,
                 elevation: 0,
               ),
           textTheme: GoogleFonts.ralewayTextTheme(),
-          floatingActionButtonTheme:
-              Theme.of(context).floatingActionButtonTheme.copyWith(
-                    backgroundColor: kBrowColor,
-                  ),
+          floatingActionButtonTheme: Theme.of(context)
+              .floatingActionButtonTheme
+              .copyWith(backgroundColor: kBrowColor),
         );
       case Brightness.light:
         return Theme.of(context).copyWith(
           brightness: Brightness.light,
           primaryColor: kPrimaryColor,
+          highlightColor: kPrimaryColor,
           appBarTheme: Theme.of(context).appBarTheme.copyWith(
                 backgroundColor: Colors.transparent,
                 elevation: 0,
